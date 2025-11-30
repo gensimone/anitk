@@ -1,0 +1,18 @@
+[tool.poetry]
+name = 'anitk'
+version = '0.0.1'
+description = 'Library for creating simple animated widgets in Tkinter.'
+authors = ['Simone Gentili <gensimone.git@gmail.com>']
+license = 'MIT'
+readme = 'README'
+homepage = 'https://pypi.org/project/actkinter/'
+repository = 'https://github.com/gensimone/anitk'
+keywords = []
+
+[tool.poetry.dependencies]
+python='^3.8'
+customtkinter='*'
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'
